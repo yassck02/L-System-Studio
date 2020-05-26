@@ -1,0 +1,21 @@
+{
+    "lSystem": {
+        "axiom": "L",
+        "rules": [
+            {
+                "A": "L",
+                "B": "+RF-LFL-FR+",
+            },
+            {
+                "A": "R",
+                "B": "-LF+RFR+FL-",
+            }
+        ]
+    },
+    "turtle": {
+        "lineLength": 10,
+        "lineWidth": 2,
+        "rightAngle": 90,
+        "leftAngle": 90
+    }
+}

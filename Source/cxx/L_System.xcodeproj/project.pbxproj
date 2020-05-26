@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3358A011E5FDFAE00DB0EC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3358A001E5FDFAE00DB0EC6 /* main.cpp */; };
+		B37537AA1E614E3B008BC2B5 /* Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37537A81E614E3B008BC2B5 /* Manager.cpp */; };
+		B37A7ADB1E5FE02A0002AD6B /* Lsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37A7AD91E5FE02A0002AD6B /* Lsystem.cpp */; };
+		B37A7ADE1E5FE7F70002AD6B /* turtle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37A7ADC1E5FE7F70002AD6B /* turtle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B33589FD1E5FDFAE00DB0EC6 /* L_System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L_System; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3358A001E5FDFAE00DB0EC6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B37537901E60F18A008BC2B5 /* structs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = structs.hpp; sourceTree = "<group>"; };
+		B37537A81E614E3B008BC2B5 /* Manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Manager.cpp; sourceTree = "<group>"; };
+		B37537A91E614E3B008BC2B5 /* Manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Manager.hpp; sourceTree = "<group>"; };
+		B37A7AD91E5FE02A0002AD6B /* Lsystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lsystem.cpp; sourceTree = "<group>"; };
+		B37A7ADA1E5FE02A0002AD6B /* Lsystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lsystem.hpp; sourceTree = "<group>"; };
+		B37A7ADC1E5FE7F70002AD6B /* turtle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = turtle.cpp; sourceTree = "<group>"; };
+		B37A7ADD1E5FE7F70002AD6B /* turtle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = turtle.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B33589FB1E5FDFAE00DB0EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B33589F51E5FDFAE00DB0EC6 = {
+			isa = PBXGroup;
+			children = (
+				B33589FF1E5FDFAE00DB0EC6 /* L_System */,
+				B33589FE1E5FDFAE00DB0EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B33589FE1E5FDFAE00DB0EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B33589FD1E5FDFAE00DB0EC6 /* L_System */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B33589FF1E5FDFAE00DB0EC6 /* L_System */ = {
+			isa = PBXGroup;
+			children = (
+				B3358A001E5FDFAE00DB0EC6 /* main.cpp */,
+				B37A7AD91E5FE02A0002AD6B /* Lsystem.cpp */,
+				B37A7ADA1E5FE02A0002AD6B /* Lsystem.hpp */,
+				B3358A021E5FDFAE00DB0EC6 /* Resources */,
+			);
+			path = L_System;
+			sourceTree = "<group>";
+		};
+		B3358A021E5FDFAE00DB0EC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B37537901E60F18A008BC2B5 /* structs.hpp */,
+				B37537A81E614E3B008BC2B5 /* Manager.cpp */,
+				B37537A91E614E3B008BC2B5 /* Manager.hpp */,
+				B37A7ADC1E5FE7F70002AD6B /* turtle.cpp */,
+				B37A7ADD1E5FE7F70002AD6B /* turtle.hpp */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B33589FC1E5FDFAE00DB0EC6 /* L_System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3358A091E5FDFAE00DB0EC6 /* Build configuration list for PBXNativeTarget "L_System" */;
+			buildPhases = (
+				B33589FA1E5FDFAE00DB0EC6 /* Sources */,
+				B33589FB1E5FDFAE00DB0EC6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L_System;
+			productName = L_System;
+			productReference = B33589FD1E5FDFAE00DB0EC6 /* L_System */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B33589F61E5FDFAE00DB0EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Connor_yass;
+				TargetAttributes = {
+					B33589FC1E5FDFAE00DB0EC6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B33589F91E5FDFAE00DB0EC6 /* Build configuration list for PBXProject "L_System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B33589F51E5FDFAE00DB0EC6;
+			productRefGroup = B33589FE1E5FDFAE00DB0EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B33589FC1E5FDFAE00DB0EC6 /* L_System */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B33589FA1E5FDFAE00DB0EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37537AA1E614E3B008BC2B5 /* Manager.cpp in Sources */,
+				B37A7ADB1E5FE02A0002AD6B /* Lsystem.cpp in Sources */,
+				B3358A011E5FDFAE00DB0EC6 /* main.cpp in Sources */,
+				B37A7ADE1E5FE7F70002AD6B /* turtle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3358A071E5FDFAE00DB0EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		B3358A081E5FDFAE00DB0EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		B3358A0A1E5FDFAE00DB0EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3358A0B1E5FDFAE00DB0EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B33589F91E5FDFAE00DB0EC6 /* Build configuration list for PBXProject "L_System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3358A071E5FDFAE00DB0EC6 /* Debug */,
+				B3358A081E5FDFAE00DB0EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3358A091E5FDFAE00DB0EC6 /* Build configuration list for PBXNativeTarget "L_System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3358A0A1E5FDFAE00DB0EC6 /* Debug */,
+				B3358A0B1E5FDFAE00DB0EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B33589F61E5FDFAE00DB0EC6 /* Project object */;
+}

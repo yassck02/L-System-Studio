@@ -1,0 +1,26 @@
+Dragon_Curve X, 90 : ( X > X+YF+, Y > -FX-Y )
+Hilbert_Curve L, 90 : ( L > +RF-LFL-FR+, R > -LF+RFR+FL- )
+ArrowHead_Curve X, 60 : ( X > YF+XF+Y, Y > XF-YF-X )
+Koch_Curve F, 60 : (F > F+F--F+F )
+32_Segment_Curve F, 90 : ( F > -F+F-F-F+F+FF-F+F+FF+F-F-FF+FF-FF+F+F-FF-F-F+FF-F-F+F+F-F+ )
+Hilbert_Curve_II X, 90 : (X > XFYFX+F+YFXFY-F-XFYFX, Y > YFXFY-F-XFYFX+F+YFXFY )
+Peano-Gosper_Curve X, 60 : (X > X+YF++YF-FX--FXFX-YF+, Y > -FX+YFYF++YF+FX--FX-Y )
+Peano_Curve F, 90 : ( F > F+F-F-F-F+F+F+F-F )
+Square_Curve X, 90 : ( X > XF-F+F-XF+F+XF-F+F-X )
+Sierpinski_triangle F−X−X, 120 : (F > FF, X > --FXF++FXF++FXF-- )
+Koch_curve F, 90 : ( F > F+F-F-F+F )
+Unknown F+F+F+F, 90 : ( F > F+F-F-FF+F+F-F )
+Unknown W, 30 : (W > +++X--F--ZFX+, X > ---W++F++YFW-, Y > +ZFX--F--Z+++, Z > -YFW++F++Y--- )
+Islands F+F+F+F, 90 : ( F > F+f-FF+F+FF+Ff+FF-f+FF-F-FF-Ff-FFF, f > ffffff )
+Cesàro_Fractal F, 85 : ( F > F+F--F+F)
+Rings F+F+F+F, 90 : ( F > FF+F+F+F+F+F-F )
+Crystal F+F+F+F, 90 : ( F > FF+F++F+F )
+Seaweed F, 22 : ( F > FF-[-F+F+F]+[+F-F-F] )
+Box_Fractal F-F-F-F, 90 : ( F > F-F+F+F-F )
+
+Binary_Tree X, 30 : ( X > F[-X][+X] )
+Unknown L--F--L--F, 45 : (L > +R-F-R+, R > -L+F+L-)
+[X]---[X]---[X] : X > [+FX-FX]
+
+
+

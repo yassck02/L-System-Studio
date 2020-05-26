@@ -1,0 +1,86 @@
+{
+  "lSystem": {
+    "axiom": "X",
+    "rules": [
+      {
+        "A": "X",
+        "B": "XFYFX+F+YFXFY-F-XFYFX"
+      },
+      {
+          "A": "Y",
+          "B": "YFXFY-F-XFYFX+F+YFXFY",
+      }
+    ]
+  },
+  "turtle": {
+    "leftRotateAngle": 60,
+    "rightRotateAngle": 60,
+    "moveDistance": 10
+  },
+  "properties": {
+    "backgroundColor": {
+      "b": 1,
+      "s": 0,
+      "h": 0,
+      "a": 1
+    },
+    "strokeGradient": {
+      "keys": [
+        {
+          "color": {
+            "b": 1,
+            "s": 1,
+            "h": 0,
+            "a": 1
+          },
+          "location": 0
+        },
+        {
+          "color": {
+            "b": 1,
+            "s": 1,
+            "h": 0.15000000596046448,
+            "a": 1
+          },
+          "location": 0.30000001192092896
+        },
+        {
+          "color": {
+            "b": 1,
+            "s": 1,
+            "h": 0.20000000298023224,
+            "a": 1
+          },
+          "location": 0.4000000059604645
+        },
+        {
+          "color": {
+            "b": 1,
+            "s": 1,
+            "h": 0.44999998807907104,
+            "a": 1
+          },
+          "location": 0.6000000238418579
+        },
+        {
+          "color": {
+            "b": 1,
+            "s": 1,
+            "h": 0.6000000238418579,
+            "a": 1
+          },
+          "location": 0.800000011920929
+        },
+        {
+          "color": {
+            "b": 1,
+            "s": 1,
+            "h": 0.75,
+            "a": 1
+          },
+          "location": 1
+        }
+      ]
+    }
+  }
+}

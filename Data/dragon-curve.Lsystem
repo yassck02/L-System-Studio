@@ -1,0 +1,21 @@
+{
+    "lSystem": {
+        "axiom": "X",
+        "rules": [
+            {
+                "A": "X",
+                "B": " X+YF+",
+            },
+            {
+                "A": "Y",
+                "B": "-FX-Y",
+            }
+        ]
+    },
+    "turtle": {
+        "lineLength": 10,
+        "lineWidth": 2,
+        "rightAngle": 90,
+        "leftAngle": 90
+    }
+}
